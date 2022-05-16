@@ -7,8 +7,8 @@ The next step is to develop a web service for data synchronization and on which 
 In this early version, you need a .csv file with the employes data with this structure:
 *`id_number,Name Surname`*
 
-`main.py`: Run the Clock In - Clock Out System.
-`write_new_dni.py`: Use for write a new ID in a RFID tag.
+* `main.py`: Run the Clock In - Clock Out System.
+* `write_new_dni.py`: Use for write a new ID in a RFID tag.
 
 ## Prerequisites
 * Install mfrc522 library with `sudo pip install mfrc522` (or using `pip3`)
@@ -28,5 +28,6 @@ This is the pin configuration for RFID-RC522 Module:
   | SCK	| Pin 23 |
   | SDA	| Pin 24 |
 
- > "Give me an RFID tag and I'll control the world"
- > — Gengis Kan
+ > "If you walk in front my door and don't even say goodbye,  
+ > what you leave me you take, you are not better than me."  
+ > — Vladimir Tkachenko
